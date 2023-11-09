@@ -5,7 +5,7 @@ API LIST
                      
                 * Send room details in body as json
                     
-                     EXAMPLE:
+                    BODY EXAMPLE:
                              {
                                     "number of seats availabe": "200",
                                     "Aminities": " --- A/C and NON-A/C rooms--\n ---Parking fesilities---\n ---Kitchen and Food preparation area ",
@@ -17,7 +17,7 @@ API LIST
 
                 * Send details in body as json
 
-                     EXAMPLE:
+                   BODY EXAMPLE:
                         {
                         "CustomerName":"Karthik",
                         "BookDate":"04.10.2023",
@@ -35,5 +35,5 @@ API LIST
 
 *   To get data of how many times a customer booked rooms(GET)  - http://localhost:4000/api/hall/customerdetails
 
-                     EXAMPLE:           
+                    BODY EXAMPLE:           
                         { "CustomerName":"Karthik"}
